@@ -1,8 +1,6 @@
-# Learning process
-
 ## Get list with all possible combinations of valid IPv4 IP addresses
 
-[Code]()
+[Code](https://github.com/AlisaLiso/learning/blob/master/getIPsFromString.js)
 
 Example:
 
