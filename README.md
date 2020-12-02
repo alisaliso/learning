@@ -18,6 +18,8 @@ Code challanges from different courses on [SkillShare](https://www.skillshare.co
 
 Code challanges in email subscription from [cassido](https://cassidoo.co) focused on general **algorithms** in fun and interesting tasks.
 
+&nbsp;
+
 - [Get list with all possible combinations of valid IPv4 IP addresses](https://github.com/AlisaLiso/learning/blob/master/cassido/getIPsFromString.js)
 
 ```js
@@ -25,12 +27,16 @@ getIp(‘11211’)
 /// -> ['1.1.2.11', '1.1.21.1', '1.12.1.1', '11.2.1.1']
 ```
 
+&nbsp;
+
 - [Encode phrase into pig latin](https://github.com/AlisaLiso/learning/blob/master/cassido/encodeIntoPigLatin.js)
 
 ```js
 encodeIntoPigLatin("Encode into pig latin smile");
 /// -> "Encodeay intoay igpay atinlay ilesmay"
 ```
+
+&nbsp;
 
 - [Number of pizzas you need to buy](https://github.com/AlisaLiso/learning/blob/master/cassido/gimmePizza.js)
 
@@ -44,6 +50,8 @@ const array = [
 gimmePizza(array, 8);
 /// -> 2 // 16 slices needed, pizzas can be sliced into 8 pieces, so 2 pizzas should be ordered
 ```
+
+&nbsp;
 
 - [Returns is it a perfect square](https://github.com/AlisaLiso/learning/blob/master/cassido/perfectSquare.js)
 
