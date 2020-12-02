@@ -2,19 +2,13 @@
 
 ## LeetCode
 
----
-
 Code challanges on [LeetCode](https://leetcode.com) from **easy** to **hard** level.
 
 ## SkillShare
 
----
-
 Code challanges from different courses on [SkillShare](https://www.skillshare.com). Mostly focused on **Data Structure** and basic challanges.
 
 ## Cassido
-
----
 
 Code challanges in email subscription from [cassido](https://cassidoo.co) focused on general **algorithms** in fun and interesting tasks.
 
