@@ -1,3 +1,4 @@
+/// Solving with loop
 // var lengthOfLastWord = function (s) {
 //   let wordStarted = false;
 //   let count = 0;
@@ -16,11 +17,8 @@
 //   return count;
 // };
 
+/// Solving with inbuild functions
 var lengthOfLastWord = function (s) {
-  // if (!s.length) return 0;
-
-  // const array = s.trim().split(' ');
-  // return array[array.length - 1].length;
   return s.trim().split(' ').pop().length;
 };
 

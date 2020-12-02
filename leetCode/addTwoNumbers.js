@@ -68,4 +68,3 @@ var l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new Lis
   l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
 
 console.log('[8,9,9,9,0,0,0,1]', addTwoNumbers(l1, l2));
-// "Result ->> "

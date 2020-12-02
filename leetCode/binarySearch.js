@@ -1,20 +1,20 @@
 const binarySearch = (nums, target) => {
   let s = 0;
-  let e = nums.length - 1; // 5
-  let mid = Math.floor((s + e) / 2); // 3
+  let e = nums.length - 1;
+  let mid = Math.floor((s + e) / 2);
 
   while (s <= e || e >= s) {
-    if (nums[mid] === target) return mid; // 5. 9 // 9 === 9
+    if (nums[mid] === target) return mid;
 
-    if (nums[mid] > target) { // 5 < 9 //
+    if (nums[mid] > target) {
       e = mid - 1;
     }
 
-    if (nums[mid] < target) { // s = 3 + 1 = 4
+    if (nums[mid] < target) {
       s = mid + 1;
     }
 
-    mid = Math.floor((s + e) / 2); // 4 + 5 / 2 = 4
+    mid = Math.floor((s + e) / 2);
   }
 
   return -1;

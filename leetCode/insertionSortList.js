@@ -7,26 +7,6 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 
-// var insertionSortList = function (head) {
-//   let start = new ListNode(Infinity);
-//   let current = start;
-
-//   while (head) {
-//     let next = head.next;
-//     current = start;
-
-//     while (current.next?.val <= head.val) {
-//       current = current.next;
-//     }
-
-//     head.next = current.next;
-//     current.next = head;
-//     head = next;
-//   }
-
-//   return start.next;
-// };
-
 const parce = (nodes) => {
   const list = [];
   let node = nodes;
@@ -47,9 +27,6 @@ var insertionSortList = function (head) {
   }, null);
 }
 
-// 4 -> 2 -> 1 -> 3
-// [-1,5,3,4,0]
-// [-2147483648, -2147483647]
 const l1 = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
 const l3 = new ListNode(-2147483648, new ListNode(-2147483647));
 const l2 = new ListNode(-1, new ListNode(5, new ListNode(3, new ListNode(4, new ListNode(0)))));

@@ -2,6 +2,7 @@
  * @param {string} s
  * @return {number}
  */
+
 var maxPower = function (s) {
   if (s.length === 1) return 1;
 
