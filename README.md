@@ -171,6 +171,16 @@ search([1, 3], 1);
 
 &nbsp;
 
+- [Binary Tree Inorder Traversal](https://github.com/AlisaLiso/learning/blob/master/leetCode/binaryTreeInorderTraversal.js)
+
+```js
+let node = TreeNode(1, null, TreeNode(2, TreeNode(3)));
+inorderTraversal(node);
+/// ->> [1, 3, 2]
+```
+
+&nbsp;
+
 ## SkillShare
 
 Code challanges from different courses on [SkillShare](https://www.skillshare.com). Mostly focused on **Data Structure** and basic challanges.
