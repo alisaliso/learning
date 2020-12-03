@@ -171,12 +171,18 @@ search([1, 3], 1);
 
 &nbsp;
 
-- [Binary Tree Inorder Traversal](https://github.com/AlisaLiso/learning/blob/master/leetCode/binaryTreeInorderTraversal.js)
+- [Binary Tree Inorder Traversal](https://github.com/AlisaLiso/learning/blob/master/leetCode/binaryTreeTraversal.js)
 
 ```js
 let node = TreeNode(1, null, TreeNode(2, TreeNode(3)));
 inorderTraversal(node);
 /// ->> [1, 3, 2]
+
+preorderTraversal(node);
+/// ->> [1, 2, 3]
+
+postorderTraversal(node);
+/// ->> [3, 2, 1]
 ```
 
 &nbsp;
