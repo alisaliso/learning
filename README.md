@@ -187,6 +187,24 @@ postorderTraversal(node);
 
 &nbsp;
 
+- [Binary Tree Level Order Traversal](https://github.com/AlisaLiso/learning/blob/master/leetCode/levelOrderTraversal.js)
+
+```js
+const tree = new TreeNode(
+  3,
+  new TreeNode(9),
+  new TreeNode(20, new TreeNode(15), new TreeNode(7))
+); /// [3,9,20,null,null,15,7]
+
+levelOrderTriversalSimple(tree);
+/// ->> [3, 9, 20, 15, 7]
+
+levelOrderTriversal(tree);
+/// ->> [3, [9, 20], [15, 7]]
+```
+
+&nbsp;
+
 ## SkillShare
 
 Code challanges from different courses on [SkillShare](https://www.skillshare.com). Mostly focused on **Data Structure** and basic challanges.
