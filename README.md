@@ -205,6 +205,36 @@ levelOrderTriversal(tree);
 
 &nbsp;
 
+- [Binary Tree Level Order Traversal II](https://github.com/AlisaLiso/learning/blob/master/leetCode/binaryTreeLevelOrderTraversalII.js)
+
+```js
+const tree = new TreeNode(
+  3,
+  new TreeNode(9),
+  new TreeNode(20, new TreeNode(15), new TreeNode(7))
+); /// [3,9,20,null,null,15,7]
+
+levelOrderBottom(tree);
+/// ->> [[15,7], [9, 20], [3]]
+```
+
+&nbsp;
+
+- [Average of Levels in Binary Tree](https://github.com/AlisaLiso/learning/blob/master/leetCode/averageOfLevelsInBinaryTree.js)
+
+```js
+const tree = new TreeNode(
+  3,
+  new TreeNode(1, new TreeNode(4), new TreeNode(6)),
+  new TreeNode(5, new TreeNode(0), new TreeNode(2))
+); /// [3, 1, 5, 0, 2, 4, 6]
+
+averageOfLevels(tree);
+/// ->> [3, 3, 3]
+```
+
+&nbsp;
+
 ## SkillShare
 
 Code challanges from different courses on [SkillShare](https://www.skillshare.com). Mostly focused on **Data Structure** and basic challanges.
