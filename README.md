@@ -287,3 +287,22 @@ perfectSquare(25);
 perfectSquare(10);
 /// ->> false
 ```
+
+&nbsp;
+
+- [Removes the outdated stocks from the queue](https://github.com/AlisaLiso/learning/blob/master/cassido/stockQueue.js)
+
+```js
+const snapshot = [
+  { sym: "GME", cost: 280 },
+  { sym: "PYPL", cost: 234 },
+  { sym: "AMZN", cost: 3206 },
+  { sym: "AMZN", cost: 3213 },
+  { sym: "GME", cost: 325 },
+];
+
+stockQueue1(snapshot);
+/// ->> [{ sym: ‘PYPL’, cost: 234 },
+///      { sym: ‘AMZN’, cost: 3213 },
+///      { sym: ‘GME’, cost: 325 }]
+```
