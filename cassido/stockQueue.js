@@ -32,14 +32,6 @@ const stockQueue2 = (array) => {
   }, [])
 }
 
-const stockQueue = (array) => {
-  return array.reduce((acc, stock) => {
-    acc[stock.sym] = stock.cost
-    return acc;
-  }, [])
-}
-
-console.log(stockQueue(snapshot));
-// $[{ sym: ‘PYPL’, cost: 234 },
-//   { sym: ‘AMZN’, cost: 3213 },
-//   { sym: ‘GME’, cost: 325 }]
+// ==> [{ sym: ‘PYPL’, cost: 234 },
+//      { sym: ‘AMZN’, cost: 3213 },
+//      { sym: ‘GME’, cost: 325 }]
