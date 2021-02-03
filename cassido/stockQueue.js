@@ -32,6 +32,27 @@ const stockQueue2 = (array) => {
   }, [])
 }
 
+function stockQueue3(snapshot) {
+  return snapshot.reduceRight(
+    (acc, curStock) =>
+      acc.some((stock) => stock.sym === curStock.sym) ? acc : [curStock, ...acc],
+    [],
+  );
+}
+
+const stockQueue = (stoks) => {
+  const obj = {};
+
+  for (let i = 0; i < stoks.length; i += 1) {
+    const current = stoks[i];
+    obj[current.sym] = current;
+  }
+
+  return Object.values(obj);
+};
+
+console.log(stockQueue(snapshot));
+
 // ==> [{ sym: ‘PYPL’, cost: 234 },
 //      { sym: ‘AMZN’, cost: 3213 },
 //      { sym: ‘GME’, cost: 325 }]
