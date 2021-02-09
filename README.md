@@ -306,3 +306,17 @@ stockQueue1(snapshot);
 ///      { sym: ‘AMZN’, cost: 3213 },
 ///      { sym: ‘GME’, cost: 325 }]
 ```
+
+&nbsp;
+
+- [Implement a ProductList class with methods of additing value and product of the last m numbers](https://github.com/AlisaLiso/learning/blob/master/cassido/ProductList.js)
+
+```js
+const p = new ProductList();
+p.add(7); /// ->> [7]
+p.add(0); /// ->> [7,0]
+p.add(2); /// ->> [7,0,2]
+p.add(5); /// ->> [7,0,2,5]
+p.add(4); /// ->> [7,0,2,5,4]
+p.product(3); /// ->> return 40 because 2 * 5 * 4
+```
