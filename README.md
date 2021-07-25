@@ -320,3 +320,24 @@ p.add(5); /// ->> [7,0,2,5]
 p.add(4); /// ->> [7,0,2,5,4]
 p.product(3); /// ->> return 40 because 2 * 5 * 4
 ```
+
+## Unknown
+
+Code challanges from books and other places
+
+&nbsp;
+
+- [Find a Greatest common divisor of two numbers](https://github.com/AlisaLiso/learning/blob/master/unknown/gcd.js)
+
+```js
+gcd(544, 119); /// ->> 17
+gcd(461952, 116298); /// ->> 18
+gcd(7966496, 314080416); /// ->> 32
+gcd(24826148, 45296490); /// ->> 526
+gcd(300 ^ 40, 2 ^ 57); /// ->> 1
+gcd(12, 0); /// ->> 12
+gcd(0, 0); /// ->> 0
+gcd(0, 9); /// ->> 9
+gcd(2, 4); /// ->> 2
+gcd(3 ^ 77, 2 ^ 77); /// ->> 1
+```
